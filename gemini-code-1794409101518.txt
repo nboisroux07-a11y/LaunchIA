@@ -1,0 +1,11 @@
+launchflow-ai/
+├── .env.local               <-- Vos clés secrètes (Stripe, OpenAI, SerpApi)
+├── package.json             <-- Les dépendances (Next, Stripe, OpenAI, Axios)
+├── app/
+│   ├── layout.js            <-- En-tête global & scripts Tailwind / FontAwesome
+│   ├── page.js              <-- Landing Page + Générateur + Dashboard (L'application)
+│   └── api/
+│       ├── analyze/
+│       │   └── route.js     <-- API IA (Gemini/OpenAI) + Scraping Google Trends
+│       └── checkout/
+│           └── route.js     <-- API Paiements Stripe (39.99€, 59.99€, 89.99€)

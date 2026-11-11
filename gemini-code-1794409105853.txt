@@ -1,0 +1,7 @@
+OPENAI_API_KEY=sk-proj-votre-cle-openai-ou-gemini
+SERPAPI_KEY=votre-cle-serpapi
+STRIPE_SECRET_KEY=sk_live_votre_cle_stripe
+
+NEXT_PUBLIC_PRICE_ONE_TIME=39.99
+NEXT_PUBLIC_PRICE_SUB_2_SHOPS=59.99
+NEXT_PUBLIC_PRICE_SUB_5_SHOPS=89.99
